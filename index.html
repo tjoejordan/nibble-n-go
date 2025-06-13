@@ -3,8 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nibble-n-Go</title>
+    <title>Nibble-n-Go | The Smartest Pet Feeder</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+      body { background: #faf8f6; }
+      main .grid { margin-top: 2rem; }
+      figure img { border-radius: 1.2rem; box-shadow: 0 4px 16px rgba(0,0,0,0.10);}
+      h2, h3, p { margin-bottom: 1.1rem; }
+      .cta-btn { background: #815d38; color: #fff; }
+      nav strong { color: #815d38; }
+    </style>
   </head>
   <body>
 
@@ -14,8 +22,8 @@
       </ul>
       <ul>
         <li><a href="#features">Features</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#subscribe" role="button">Get Started</a></li>
+        <li><a href="#subscribe">Subscribe</a></li>
+        <li><a href="#get" role="button" class="cta-btn">Get Started</a></li>
       </ul>
     </nav>
 
@@ -23,20 +31,33 @@
       <div class="grid">
         <section>
           <hgroup>
-            <h2>Automatic Pet Feeder That Blends with Your Home</h2>
-            <h3>Meet Nibble-n-Go – Stylish, Smart, and Pet-Friendly</h3>
+            <h2>The Automatic Pet Feeder That Blends In</h2>
+            <h3>Nibble-n-Go: Smart Feeding, Designer Living</h3>
           </hgroup>
-          <p>Nibble-n-Go is the perfect blend of high-end furniture and smart technology. Designed to look like a sleek end table, this automatic pet feeder seamlessly integrates into your living space.</p>
+          <p>
+            <b>Nibble-n-Go</b> is the world’s first smart pet feeder that’s as beautiful as it is functional—designed to look like elegant furniture and packed with the latest connected features.
+          </p>
           <figure>
-            <img src="https://images.unsplash.com/photo-1619983081547-3fa0f4e7058a?auto=format&fit=crop&w=900&q=80" alt="Nibble-n-Go smart pet feeder in living room" />
-            <figcaption><a href="https://unsplash.com/photos/YozNeHM8MaA" target="_blank">Image via Unsplash</a></figcaption>
+            <img src="https://images.unsplash.com/photo-1619983081547-3fa0f4e7058a?auto=format&fit=crop&w=900&q=80" alt="Nibble-n-Go smart pet feeder in a designer living room" />
+            <figcaption>
+              <a href="https://unsplash.com/photos/YozNeHM8MaA" target="_blank">Image via Unsplash</a>
+            </figcaption>
           </figure>
 
-          <h3>Smart Integration</h3>
-          <p>Control feeding times and portions through our mobile app, available on both iOS and Android. Compatible with Wi-Fi, Bluetooth, Google Home, and Siri.</p>
+          <h3 id="features">Smart Features</h3>
+          <ul>
+            <li>Disguised as a luxury end table—blends with any décor</li>
+            <li>App-controlled feeding from anywhere</li>
+            <li>Wi-Fi & Bluetooth connectivity</li>
+            <li>Works with Google Home & Siri</li>
+            <li>Portion & schedule control via smartphone app</li>
+          </ul>
 
-          <h3>Design That Fits</h3>
-          <p>Crafted to resemble a modern end table, Nibble-n-Go enhances your decor while keeping your furry friend well-fed and happy.</p>
+          <h3>Easy Setup & Total Control</h3>
+          <p>
+            Use the intuitive Nibble-n-Go mobile app to set schedules, portion sizes, and get notifications. 
+            Your pet stays happy—and your home stays stylish.
+          </p>
         </section>
       </div>
     </main>
@@ -46,7 +67,7 @@
         <article>
           <hgroup>
             <h2>Stay Updated</h2>
-            <h3>Subscribe to our newsletter</h3>
+            <h3>Sign up for launch alerts and exclusive discounts</h3>
           </hgroup>
           <form class="grid">
             <input type="text" id="firstname" name="firstname" placeholder="First name" aria-label="First name" required />
@@ -57,8 +78,10 @@
       </div>
     </section>
 
-    <footer class="container">
-      <small><a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a></small>
+    <footer class="container" id="get">
+      <small>
+        <a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a>
+      </small>
     </footer>
 
   </body>
